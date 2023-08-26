@@ -14,7 +14,6 @@ addBtn.addEventListener('click', () => {
     if (newName !== '') {
         names.push(newName);
         inputName.value = '';
-        inputName.focus();
     }
 });
 
